@@ -10,12 +10,12 @@ numerical methods and compares how well each conserves energy.
 - Leapfrog / velocity Verlet (second-order, symplectic)
 
 ## Results
-![Energy error](energy_error.png)
+![Energy error](comparison.png)
 
 - Euler's energy error grows quickly and the orbit spirals outward.
 - RK4 is very accurate at first but its energy drifts slowly over long runs.
 - Leapfrog's energy error stays bounded.
-(Replace these with what YOUR plots actually show.)
+
 
 ## How to run
 pip install numpy matplotlib
@@ -27,4 +27,4 @@ python orbit_integrators.py
 - Test elliptical orbits.
 
 ## Author
-[Your Name], Class 12, [School], Delhi
+[Manan Surana Jain], Class 12, [Ryan International School], Delhi
