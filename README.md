@@ -13,7 +13,7 @@ conserves energy and angular momentum over 10 orbits.
 Each is also compared against a high-accuracy SciPy reference (`solve_ivp`, DOP853, rtol/atol 1e-12).
 
 ## Results (dt = 0.01, 10 orbits)
-![Energy error](energy_error_comparison.png)
+(comparison.png)
 
 | Method | Circular: final energy error | Circular: max position diff vs SciPy | v = 0.8: max energy error |
 |---|---|---|---|
