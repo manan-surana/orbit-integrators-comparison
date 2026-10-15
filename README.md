@@ -14,7 +14,7 @@ Each is also compared against a high-accuracy SciPy reference (`solve_ivp`, DOP8
 
 ## Results (dt = 0.01, 10 orbits)
 
-comparison.png
+![Energy error](comparison.png)
 
 | Method | Circular: final energy error | Circular: max position diff vs SciPy | v = 0.8: max energy error |
 |---|---|---|---|
